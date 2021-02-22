@@ -398,4 +398,106 @@ main .top-monedas .top__elemento-c h2 {
   margin-bottom: 12px;
   color: #1A9AF7;
 }
+
+.mid {
+  background-color: #201E1C;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+}
+
+.mid .mid__batata {
+  position: absolute;
+  top: -15px;
+  left: 42%;
+}
+
+.mid p {
+  width: 252px;
+  height: 54px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 18px;
+  color: #808080;
+}
+
+.mid .mid__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 64px;
+}
+
+.mid .mid__title h1 {
+  width: 288px;
+  height: 52px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 26px;
+  /* or 108% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.mid .mid__title p {
+  margin-top: 24px;
+}
+
+.mid .mid__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 288px;
+  height: 152px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mid .mid__container img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 25px;
+  margin-bottom: 12px;
+}
+
+.mid .mid__container h2 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  height: 18px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.mid .mid__container p {
+  width: 252px;
+  height: 54px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 18px;
+  margin-left: 16px;
+}
 /*# sourceMappingURL=style.css.map */
