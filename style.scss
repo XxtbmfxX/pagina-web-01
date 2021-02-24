@@ -124,7 +124,7 @@ header{
     }
 }
 
-main .top-monedas{
+.top-monedas{
 
     display: flex;
     align-items: center;
@@ -153,6 +153,24 @@ main .top-monedas{
     
 }
 
+
+.tabla-container{
+    margin-top: 25px;
+    height: 250px;
+    margin: 20px auto;
+
+    width: 80%;
+    display: flex;
+
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.top-tabla{
+    position: relative;
+    scroll-snap-align: center;
+}
 .top__elemento-m{
     align-self: flex-start;
 
@@ -163,10 +181,25 @@ main .top-monedas{
         line-height: 23px;
 
         color: #FF9536;
-        margin-left: 74px;
-        margin-top: 48px;
+        margin-top: 25px;
     }
     
+}
+
+#comisiones{
+    .top__elemento-m{
+        h2{
+            color: #1A9AF7;
+
+        }
+    }
+    .top-actualizacion-m{
+        p{
+            background-color: #E7F5FF;
+
+        }
+
+    }
 }
 
 .top__tabla-main{
@@ -178,6 +211,7 @@ main .top-monedas{
     border-radius: 8px;
 
     margin-bottom: 16px;
+    margin-right: 20px;
     
     p{
         font-weight: 500;
@@ -239,34 +273,6 @@ main .top-monedas{
     }
 }
 
-.top__elemento-c{
- 
-    align-self: flex-start;
-
-    h2{
-            
-        font-weight: bold;
-        font-size: 1.8rem;
-        line-height: 23px;
-
-        
-        margin-left: 74px;
-        color: #1A9AF7;
-
-    }
-}
-
-.top-actualizacion-c{
-    width: 173px;
-    
-    border-radius: 8px;
-    margin-bottom: 64px;
-    p{
-        background-color: #E7F5FF;
-        color:  #282623;
-        font-size: 1.2rem;
-    }
-}
 
 .mid{
     background-color: #201E1C;

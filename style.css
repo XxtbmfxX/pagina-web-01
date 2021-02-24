@@ -133,7 +133,7 @@ header {
   margin-left: 16px;
 }
 
-main .top-monedas {
+.top-monedas {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,22 +150,41 @@ main .top-monedas {
   min-width: 320px;
 }
 
-main .top-monedas img {
+.top-monedas img {
   margin-top: 50px;
 }
 
-main .top-monedas .top-texto {
+.top-monedas .top-texto {
   width: 288px;
 }
 
-main .top-monedas .top-texto h1 {
+.top-monedas .top-texto h1 {
   color: #201E1C;
   margin-top: 40px;
 }
 
-main .top-monedas .top-texto p {
+.top-monedas .top-texto p {
   color: #757575;
   margin-top: 24px;
+}
+
+.tabla-container {
+  margin-top: 25px;
+  height: 250px;
+  margin: 20px auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  -ms-scroll-snap-type: x proximity;
+      scroll-snap-type: x proximity;
+}
+
+.top-tabla {
+  position: relative;
+  scroll-snap-align: center;
 }
 
 .top__elemento-m {
@@ -178,8 +197,15 @@ main .top-monedas .top-texto p {
   font-size: 1.8rem;
   line-height: 23px;
   color: #FF9536;
-  margin-left: 74px;
-  margin-top: 48px;
+  margin-top: 25px;
+}
+
+#comisiones .top__elemento-m h2 {
+  color: #1A9AF7;
+}
+
+#comisiones .top-actualizacion-m p {
+  background-color: #E7F5FF;
 }
 
 .top__tabla-main {
@@ -192,6 +218,7 @@ main .top-monedas .top-texto p {
   background-color: #FFFFFF;
   border-radius: 8px;
   margin-bottom: 16px;
+  margin-right: 20px;
 }
 
 .top__tabla-main p {
@@ -254,31 +281,6 @@ main .top-monedas .top-texto p {
 
 .top-actualizacion-m p {
   background-color: #FFE9D4;
-  color: #282623;
-  font-size: 1.2rem;
-}
-
-.top__elemento-c {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-}
-
-.top__elemento-c h2 {
-  font-weight: bold;
-  font-size: 1.8rem;
-  line-height: 23px;
-  margin-left: 74px;
-  color: #1A9AF7;
-}
-
-.top-actualizacion-c {
-  width: 173px;
-  border-radius: 8px;
-  margin-bottom: 64px;
-}
-
-.top-actualizacion-c p {
-  background-color: #E7F5FF;
   color: #282623;
   font-size: 1.2rem;
 }
